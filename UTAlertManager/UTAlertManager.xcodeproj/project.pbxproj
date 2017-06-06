@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561A25BA1EE6989A00EADF08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25B91EE6989A00EADF08 /* main.m */; };
+		561A25BD1EE6989A00EADF08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25BC1EE6989A00EADF08 /* AppDelegate.m */; };
+		561A25C01EE6989A00EADF08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25BF1EE6989A00EADF08 /* ViewController.m */; };
+		561A25C31EE6989A00EADF08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561A25C11EE6989A00EADF08 /* Main.storyboard */; };
+		561A25C51EE6989A00EADF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561A25C41EE6989A00EADF08 /* Assets.xcassets */; };
+		561A25C81EE6989A00EADF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561A25C61EE6989A00EADF08 /* LaunchScreen.storyboard */; };
+		561A25D31EE6989A00EADF08 /* UTAlertManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25D21EE6989A00EADF08 /* UTAlertManagerTests.m */; };
+		561A25DE1EE6989A00EADF08 /* UTAlertManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25DD1EE6989A00EADF08 /* UTAlertManagerUITests.m */; };
+		561A25F61EE6995700EADF08 /* UHAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25ED1EE6995700EADF08 /* UHAlertManager.m */; };
+		561A25F71EE6995700EADF08 /* UHAlertviewSuperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25EF1EE6995700EADF08 /* UHAlertviewSuperVC.m */; };
+		561A25F81EE6995700EADF08 /* UHDefaulAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 561A25F11EE6995700EADF08 /* UHDefaulAlert.m */; };
+		561A25F91EE6995700EADF08 /* UHDefaulAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561A25F21EE6995700EADF08 /* UHDefaulAlert.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561A25CF1EE6989A00EADF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561A25AD1EE6989A00EADF08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561A25B41EE6989A00EADF08;
+			remoteInfo = UTAlertManager;
+		};
+		561A25DA1EE6989A00EADF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561A25AD1EE6989A00EADF08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561A25B41EE6989A00EADF08;
+			remoteInfo = UTAlertManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561A25B51EE6989A00EADF08 /* UTAlertManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTAlertManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561A25B91EE6989A00EADF08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		561A25BB1EE6989A00EADF08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		561A25BC1EE6989A00EADF08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		561A25BE1EE6989A00EADF08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		561A25BF1EE6989A00EADF08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		561A25C21EE6989A00EADF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561A25C41EE6989A00EADF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561A25C71EE6989A00EADF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561A25C91EE6989A00EADF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561A25CE1EE6989A00EADF08 /* UTAlertManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTAlertManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561A25D21EE6989A00EADF08 /* UTAlertManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTAlertManagerTests.m; sourceTree = "<group>"; };
+		561A25D41EE6989A00EADF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561A25D91EE6989A00EADF08 /* UTAlertManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTAlertManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561A25DD1EE6989A00EADF08 /* UTAlertManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTAlertManagerUITests.m; sourceTree = "<group>"; };
+		561A25DF1EE6989A00EADF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561A25EC1EE6995700EADF08 /* UHAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHAlertManager.h; sourceTree = "<group>"; };
+		561A25ED1EE6995700EADF08 /* UHAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHAlertManager.m; sourceTree = "<group>"; };
+		561A25EE1EE6995700EADF08 /* UHAlertviewSuperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHAlertviewSuperVC.h; sourceTree = "<group>"; };
+		561A25EF1EE6995700EADF08 /* UHAlertviewSuperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHAlertviewSuperVC.m; sourceTree = "<group>"; };
+		561A25F01EE6995700EADF08 /* UHDefaulAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHDefaulAlert.h; sourceTree = "<group>"; };
+		561A25F11EE6995700EADF08 /* UHDefaulAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHDefaulAlert.m; sourceTree = "<group>"; };
+		561A25F21EE6995700EADF08 /* UHDefaulAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UHDefaulAlert.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561A25B21EE6989A00EADF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561A25CB1EE6989A00EADF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561A25D61EE6989A00EADF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561A25AC1EE6989A00EADF08 = {
+			isa = PBXGroup;
+			children = (
+				561A25EB1EE6995700EADF08 /* UTAlertManager */,
+				561A25B71EE6989A00EADF08 /* UTAlertTest */,
+				561A25D11EE6989A00EADF08 /* UTAlertManagerTests */,
+				561A25DC1EE6989A00EADF08 /* UTAlertManagerUITests */,
+				561A25B61EE6989A00EADF08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561A25B61EE6989A00EADF08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561A25B51EE6989A00EADF08 /* UTAlertManager.app */,
+				561A25CE1EE6989A00EADF08 /* UTAlertManagerTests.xctest */,
+				561A25D91EE6989A00EADF08 /* UTAlertManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561A25B71EE6989A00EADF08 /* UTAlertTest */ = {
+			isa = PBXGroup;
+			children = (
+				561A25BB1EE6989A00EADF08 /* AppDelegate.h */,
+				561A25BC1EE6989A00EADF08 /* AppDelegate.m */,
+				561A25BE1EE6989A00EADF08 /* ViewController.h */,
+				561A25BF1EE6989A00EADF08 /* ViewController.m */,
+				561A25C11EE6989A00EADF08 /* Main.storyboard */,
+				561A25C41EE6989A00EADF08 /* Assets.xcassets */,
+				561A25C61EE6989A00EADF08 /* LaunchScreen.storyboard */,
+				561A25C91EE6989A00EADF08 /* Info.plist */,
+				561A25B81EE6989A00EADF08 /* Supporting Files */,
+			);
+			name = UTAlertTest;
+			path = UTAlertManager;
+			sourceTree = "<group>";
+		};
+		561A25B81EE6989A00EADF08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				561A25B91EE6989A00EADF08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		561A25D11EE6989A00EADF08 /* UTAlertManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				561A25D21EE6989A00EADF08 /* UTAlertManagerTests.m */,
+				561A25D41EE6989A00EADF08 /* Info.plist */,
+			);
+			path = UTAlertManagerTests;
+			sourceTree = "<group>";
+		};
+		561A25DC1EE6989A00EADF08 /* UTAlertManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561A25DD1EE6989A00EADF08 /* UTAlertManagerUITests.m */,
+				561A25DF1EE6989A00EADF08 /* Info.plist */,
+			);
+			path = UTAlertManagerUITests;
+			sourceTree = "<group>";
+		};
+		561A25EB1EE6995700EADF08 /* UTAlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				561A25EC1EE6995700EADF08 /* UHAlertManager.h */,
+				561A25ED1EE6995700EADF08 /* UHAlertManager.m */,
+				561A25EE1EE6995700EADF08 /* UHAlertviewSuperVC.h */,
+				561A25EF1EE6995700EADF08 /* UHAlertviewSuperVC.m */,
+				561A25F01EE6995700EADF08 /* UHDefaulAlert.h */,
+				561A25F11EE6995700EADF08 /* UHDefaulAlert.m */,
+				561A25F21EE6995700EADF08 /* UHDefaulAlert.xib */,
+			);
+			name = UTAlertManager;
+			path = UHAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561A25B41EE6989A00EADF08 /* UTAlertManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561A25E21EE6989A00EADF08 /* Build configuration list for PBXNativeTarget "UTAlertManager" */;
+			buildPhases = (
+				561A25B11EE6989A00EADF08 /* Sources */,
+				561A25B21EE6989A00EADF08 /* Frameworks */,
+				561A25B31EE6989A00EADF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTAlertManager;
+			productName = UTAlertManager;
+			productReference = 561A25B51EE6989A00EADF08 /* UTAlertManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561A25CD1EE6989A00EADF08 /* UTAlertManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561A25E51EE6989A00EADF08 /* Build configuration list for PBXNativeTarget "UTAlertManagerTests" */;
+			buildPhases = (
+				561A25CA1EE6989A00EADF08 /* Sources */,
+				561A25CB1EE6989A00EADF08 /* Frameworks */,
+				561A25CC1EE6989A00EADF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561A25D01EE6989A00EADF08 /* PBXTargetDependency */,
+			);
+			name = UTAlertManagerTests;
+			productName = UTAlertManagerTests;
+			productReference = 561A25CE1EE6989A00EADF08 /* UTAlertManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561A25D81EE6989A00EADF08 /* UTAlertManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561A25E81EE6989A00EADF08 /* Build configuration list for PBXNativeTarget "UTAlertManagerUITests" */;
+			buildPhases = (
+				561A25D51EE6989A00EADF08 /* Sources */,
+				561A25D61EE6989A00EADF08 /* Frameworks */,
+				561A25D71EE6989A00EADF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561A25DB1EE6989A00EADF08 /* PBXTargetDependency */,
+			);
+			name = UTAlertManagerUITests;
+			productName = UTAlertManagerUITests;
+			productReference = 561A25D91EE6989A00EADF08 /* UTAlertManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561A25AD1EE6989A00EADF08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UbunGit;
+				TargetAttributes = {
+					561A25B41EE6989A00EADF08 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					561A25CD1EE6989A00EADF08 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 561A25B41EE6989A00EADF08;
+					};
+					561A25D81EE6989A00EADF08 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 561A25B41EE6989A00EADF08;
+					};
+				};
+			};
+			buildConfigurationList = 561A25B01EE6989A00EADF08 /* Build configuration list for PBXProject "UTAlertManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561A25AC1EE6989A00EADF08;
+			productRefGroup = 561A25B61EE6989A00EADF08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561A25B41EE6989A00EADF08 /* UTAlertManager */,
+				561A25CD1EE6989A00EADF08 /* UTAlertManagerTests */,
+				561A25D81EE6989A00EADF08 /* UTAlertManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561A25B31EE6989A00EADF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561A25F91EE6995700EADF08 /* UHDefaulAlert.xib in Resources */,
+				561A25C81EE6989A00EADF08 /* LaunchScreen.storyboard in Resources */,
+				561A25C51EE6989A00EADF08 /* Assets.xcassets in Resources */,
+				561A25C31EE6989A00EADF08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561A25CC1EE6989A00EADF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561A25D71EE6989A00EADF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561A25B11EE6989A00EADF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561A25C01EE6989A00EADF08 /* ViewController.m in Sources */,
+				561A25F71EE6995700EADF08 /* UHAlertviewSuperVC.m in Sources */,
+				561A25BD1EE6989A00EADF08 /* AppDelegate.m in Sources */,
+				561A25BA1EE6989A00EADF08 /* main.m in Sources */,
+				561A25F81EE6995700EADF08 /* UHDefaulAlert.m in Sources */,
+				561A25F61EE6995700EADF08 /* UHAlertManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561A25CA1EE6989A00EADF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561A25D31EE6989A00EADF08 /* UTAlertManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561A25D51EE6989A00EADF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561A25DE1EE6989A00EADF08 /* UTAlertManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561A25D01EE6989A00EADF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561A25B41EE6989A00EADF08 /* UTAlertManager */;
+			targetProxy = 561A25CF1EE6989A00EADF08 /* PBXContainerItemProxy */;
+		};
+		561A25DB1EE6989A00EADF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561A25B41EE6989A00EADF08 /* UTAlertManager */;
+			targetProxy = 561A25DA1EE6989A00EADF08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561A25C11EE6989A00EADF08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561A25C21EE6989A00EADF08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561A25C61EE6989A00EADF08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561A25C71EE6989A00EADF08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561A25E01EE6989A00EADF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561A25E11EE6989A00EADF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561A25E31EE6989A00EADF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UTAlertManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.UTAlertManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		561A25E41EE6989A00EADF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UTAlertManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.UTAlertManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		561A25E61EE6989A00EADF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UTAlertManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.UTAlertManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTAlertManager.app/UTAlertManager";
+			};
+			name = Debug;
+		};
+		561A25E71EE6989A00EADF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UTAlertManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.UTAlertManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UTAlertManager.app/UTAlertManager";
+			};
+			name = Release;
+		};
+		561A25E91EE6989A00EADF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UTAlertManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.UTAlertManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UTAlertManager;
+			};
+			name = Debug;
+		};
+		561A25EA1EE6989A00EADF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UTAlertManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UG.UTAlertManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UTAlertManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561A25B01EE6989A00EADF08 /* Build configuration list for PBXProject "UTAlertManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561A25E01EE6989A00EADF08 /* Debug */,
+				561A25E11EE6989A00EADF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561A25E21EE6989A00EADF08 /* Build configuration list for PBXNativeTarget "UTAlertManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561A25E31EE6989A00EADF08 /* Debug */,
+				561A25E41EE6989A00EADF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561A25E51EE6989A00EADF08 /* Build configuration list for PBXNativeTarget "UTAlertManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561A25E61EE6989A00EADF08 /* Debug */,
+				561A25E71EE6989A00EADF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561A25E81EE6989A00EADF08 /* Build configuration list for PBXNativeTarget "UTAlertManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561A25E91EE6989A00EADF08 /* Debug */,
+				561A25EA1EE6989A00EADF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561A25AD1EE6989A00EADF08 /* Project object */;
+}
